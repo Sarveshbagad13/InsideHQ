@@ -1,0 +1,352 @@
+[
+  {
+    "id": "eval_01",
+    "question": "How many weeks of paid parental leave do primary caregivers receive?",
+    "ground_truth_answer": "Primary caregivers receive 16 weeks of fully paid parental leave following birth or adoption.",
+    "expected_document": "Employee Benefits and Leave Policy 2026",
+    "expected_section": "Parental Leave",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": ["contractor"]
+  },
+  {
+    "id": "eval_02",
+    "question": "How much paid leave do secondary caregivers receive under company policy?",
+    "ground_truth_answer": "Secondary caregivers receive 8 weeks of fully paid parental leave which must be used within 12 months.",
+    "expected_document": "Employee Benefits and Leave Policy 2026",
+    "expected_section": "Secondary Caregivers",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": ["contractor"]
+  },
+  {
+    "id": "eval_03",
+    "question": "What is the maximum 401k employer match percentage provided to employees?",
+    "ground_truth_answer": "The company matches 100% of employee 401k contributions up to 6% of base salary.",
+    "expected_document": "Employee Benefits and Leave Policy 2026",
+    "expected_section": "Retirement & 401(k)",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": ["contractor"]
+  },
+  {
+    "id": "eval_04",
+    "question": "What is the annual health and wellness stipend limit per employee?",
+    "ground_truth_answer": "Employees are eligible for a $1,200 annual health and wellness stipend reimbursable quarterly.",
+    "expected_document": "Employee Benefits and Leave Policy 2026",
+    "expected_section": "Wellness Stipend",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_05",
+    "question": "How many days in advance must paid time off (PTO) requests exceeding 3 days be submitted?",
+    "ground_truth_answer": "PTO requests exceeding 3 consecutive business days must be submitted at least 2 weeks in advance in the HR portal.",
+    "expected_document": "Employee Benefits and Leave Policy 2026",
+    "expected_section": "Vacation and PTO",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_06",
+    "question": "What is the daily meal allowance limit for employees traveling for company business?",
+    "ground_truth_answer": "The daily meal allowance for domestic business travel is up to $100 per day without itemized alcohol reimbursement.",
+    "expected_document": "Corporate Travel and Expense Policy",
+    "expected_section": "Meal Reimbursements",
+    "department": "Finance",
+    "allowed_roles": ["employee", "manager", "finance", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_07",
+    "question": "What is the maximum expense amount an employee can submit without requiring manager pre-approval?",
+    "ground_truth_answer": "Expenses under $50 do not require prior manager approval but still require a receipt.",
+    "expected_document": "Corporate Travel and Expense Policy",
+    "expected_section": "Expense Limits",
+    "department": "Finance",
+    "allowed_roles": ["employee", "manager", "finance", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_08",
+    "question": "Within how many days of travel completion must expense reports be submitted?",
+    "ground_truth_answer": "All expense reports must be submitted within 30 days of the travel end date.",
+    "expected_document": "Corporate Travel and Expense Policy",
+    "expected_section": "Submission Deadlines",
+    "department": "Finance",
+    "allowed_roles": ["employee", "manager", "finance", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_09",
+    "question": "What is the required approval process for booking flights in business class?",
+    "ground_truth_answer": "Business class airfare is only permitted for international flights over 8 hours and requires VP approval.",
+    "expected_document": "Corporate Travel and Expense Policy",
+    "expected_section": "Air Travel Guidelines",
+    "department": "Finance",
+    "allowed_roles": ["employee", "manager", "finance", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_10",
+    "question": "What is the one-time home office equipment stipend for new full-time remote hires?",
+    "ground_truth_answer": "Full-time remote employees receive a one-time $1,000 home office setup stipend.",
+    "expected_document": "Remote Work and Home Office Policy",
+    "expected_section": "Equipment & Stipends",
+    "department": "IT",
+    "allowed_roles": ["employee", "manager", "it", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_11",
+    "question": "What are the core collaboration hours for remote and hybrid teams?",
+    "ground_truth_answer": "Core working hours for cross-functional collaboration are 10:00 AM to 3:00 PM in the employee's local timezone.",
+    "expected_document": "Remote Work and Home Office Policy",
+    "expected_section": "Working Hours",
+    "department": "General",
+    "allowed_roles": ["employee", "manager", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_12",
+    "question": "What is the password complexity requirement for corporate SSO accounts?",
+    "ground_truth_answer": "SSO passwords must be at least 16 characters long and include uppercase, lowercase, numbers, and symbols.",
+    "expected_document": "Information Security and IT Guidelines",
+    "expected_section": "Password Standards",
+    "department": "IT",
+    "allowed_roles": ["employee", "manager", "it", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_13",
+    "question": "How often must employees complete mandatory cybersecurity awareness training?",
+    "ground_truth_answer": "All employees must complete annual cybersecurity awareness and phishing prevention training.",
+    "expected_document": "Information Security and IT Guidelines",
+    "expected_section": "Security Training",
+    "department": "IT",
+    "allowed_roles": ["employee", "manager", "it", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_14",
+    "question": "What is the procedure for reporting a lost or stolen company laptop?",
+    "ground_truth_answer": "Lost or stolen laptops must be reported to the IT Security Helpdesk within 2 hours to initiate remote wipe.",
+    "expected_document": "Information Security and IT Guidelines",
+    "expected_section": "Device Incident Response",
+    "department": "IT",
+    "allowed_roles": ["employee", "manager", "it", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_15",
+    "question": "What is the branch naming convention for feature development in git repositories?",
+    "ground_truth_answer": "Feature branches must follow the convention feature/JIRA-TICKET-brief-description.",
+    "expected_document": "Engineering Development Standards",
+    "expected_section": "Git Workflow",
+    "department": "Engineering",
+    "allowed_roles": ["employee", "manager", "engineering", "admin"],
+    "restricted_roles": ["hr", "finance"]
+  },
+  {
+    "id": "eval_16",
+    "question": "How many peer code review approvals are required before merging a pull request to main?",
+    "ground_truth_answer": "At least 2 peer review approvals and passing CI build pipelines are required before merging to main.",
+    "expected_document": "Engineering Development Standards",
+    "expected_section": "Code Review Guidelines",
+    "department": "Engineering",
+    "allowed_roles": ["employee", "manager", "engineering", "admin"],
+    "restricted_roles": ["hr", "finance"]
+  },
+  {
+    "id": "eval_17",
+    "question": "What is the code test coverage threshold enforced by CI pipelines for new services?",
+    "ground_truth_answer": "New backend services must maintain a minimum of 80% line coverage in automated unit and integration tests.",
+    "expected_document": "Engineering Development Standards",
+    "expected_section": "Testing Standards",
+    "department": "Engineering",
+    "allowed_roles": ["employee", "manager", "engineering", "admin"],
+    "restricted_roles": ["hr", "finance"]
+  },
+  {
+    "id": "eval_18",
+    "question": "During what hours are production deployment freezes in effect on Fridays?",
+    "ground_truth_answer": "Production deployment freezes begin at 12:00 PM on Fridays until 9:00 AM on Mondays.",
+    "expected_document": "Production Release and Incident Management",
+    "expected_section": "Deployment Windows",
+    "department": "Engineering",
+    "allowed_roles": ["employee", "manager", "engineering", "admin"],
+    "restricted_roles": ["hr", "finance"]
+  },
+  {
+    "id": "eval_19",
+    "question": "What is the Sev-1 incident acknowledgment SLA for the on-call engineer?",
+    "ground_truth_answer": "Sev-1 critical incidents require on-call engineer acknowledgment within 15 minutes of paging.",
+    "expected_document": "Production Release and Incident Management",
+    "expected_section": "Incident Severity & SLAs",
+    "department": "Engineering",
+    "allowed_roles": ["employee", "manager", "engineering", "admin"],
+    "restricted_roles": ["hr", "finance"]
+  },
+  {
+    "id": "eval_20",
+    "question": "What is the annual continuing education and professional development budget per engineer?",
+    "ground_truth_answer": "Full-time engineers have access to a $2,500 annual budget for conferences, courses, and certifications.",
+    "expected_document": "Engineering Handbook",
+    "expected_section": "Professional Development",
+    "department": "Engineering",
+    "allowed_roles": ["employee", "manager", "engineering", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_21",
+    "question": "What is the vesting schedule for employee stock options and equity grants?",
+    "ground_truth_answer": "Standard equity grants vest over 4 years with a 1-year cliff (25% at month 12) followed by monthly vesting.",
+    "expected_document": "Employee Equity and Stock Incentive Plan",
+    "expected_section": "Vesting Schedules",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": ["contractor"]
+  },
+  {
+    "id": "eval_22",
+    "question": "How long do employees have to exercise vested stock options after departing the company?",
+    "ground_truth_answer": "Departing employees have a 90-day post-termination exercise window for vested incentive stock options.",
+    "expected_document": "Employee Equity and Stock Incentive Plan",
+    "expected_section": "Post-Termination Exercise",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": ["contractor"]
+  },
+  {
+    "id": "eval_23",
+    "question": "What are the designated official company holidays for the calendar year?",
+    "ground_truth_answer": "The company observes 11 paid federal holidays including New Year's Day, Memorial Day, Juneteenth, and Thanksgiving.",
+    "expected_document": "Company Holiday Calendar 2026",
+    "expected_section": "Observed Holidays",
+    "department": "General",
+    "allowed_roles": ["employee", "manager", "hr", "admin", "contractor"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_24",
+    "question": "How many floating personal holidays do full-time employees receive annually?",
+    "ground_truth_answer": "Employees receive 2 floating holidays per calendar year to be used for cultural or personal observances.",
+    "expected_document": "Company Holiday Calendar 2026",
+    "expected_section": "Floating Holidays",
+    "department": "General",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": ["contractor"]
+  },
+  {
+    "id": "eval_25",
+    "question": "What is the referral bonus amount for successfully hiring a Senior Software Engineer?",
+    "ground_truth_answer": "Employee referral bonus is $5,000 for Senior Engineer hires, paid after 90 days of employment.",
+    "expected_document": "Employee Referral Program Guidelines",
+    "expected_section": "Referral Rewards",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_26",
+    "question": "What is the probationary period length for newly hired employees?",
+    "ground_truth_answer": "New hires complete a 90-day initial performance review and onboarding evaluation period.",
+    "expected_document": "Employee Onboarding and Probation Policy",
+    "expected_section": "Probationary Milestones",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": []
+  },
+  {
+    "id": "eval_27",
+    "question": "What is the company severance pay formula for involuntary layoffs without cause?",
+    "ground_truth_answer": "Severance is calculated as 2 weeks of base pay per completed year of service, minimum 4 weeks.",
+    "expected_document": "Executive Severance and Separation Plan",
+    "expected_section": "Severance Calculation",
+    "department": "HR",
+    "allowed_roles": ["hr", "manager", "admin", "executive"],
+    "restricted_roles": ["employee", "contractor"]
+  },
+  {
+    "id": "eval_28",
+    "question": "What is the target EBITDA margin threshold required for executive annual bonus payout?",
+    "ground_truth_answer": "Executive bonuses require a minimum 22% annual EBITDA margin before target bonuses are funded.",
+    "expected_document": "Executive Compensation and Bonus Structure",
+    "expected_section": "Performance Metrics",
+    "department": "Executive",
+    "allowed_roles": ["executive", "admin", "finance"],
+    "restricted_roles": ["employee", "manager", "contractor"]
+  },
+  {
+    "id": "eval_29",
+    "question": "What is the total valuation and target revenue for the Project Titan M&A acquisition?",
+    "ground_truth_answer": "Project Titan acquisition target valuation is $45M with expected annualized revenue of $12M.",
+    "expected_document": "Project Titan M&A Strategic Acquisition Memo",
+    "expected_section": "Deal Terms",
+    "department": "Executive",
+    "allowed_roles": ["executive", "legal", "admin"],
+    "restricted_roles": ["employee", "manager", "engineering", "hr", "contractor"]
+  },
+  {
+    "id": "eval_30",
+    "question": "What is the root-cause vulnerability in the Q1 internal security penetration audit?",
+    "ground_truth_answer": "The audit discovered hardcoded API tokens in internal staging environment configuration scripts.",
+    "expected_document": "Internal Security Vulnerability and Penetration Report",
+    "expected_section": "Critical Findings",
+    "department": "Security",
+    "allowed_roles": ["admin", "security"],
+    "restricted_roles": ["employee", "manager", "contractor", "hr", "finance"]
+  },
+  {
+    "id": "eval_31",
+    "question": "What is the quarterly payroll expense run rate for the engineering department?",
+    "ground_truth_answer": "Engineering department quarterly payroll run rate is $4.8M across 42 headcount.",
+    "expected_document": "Department Payroll and Budget Summary 2026",
+    "expected_section": "Engineering Budget",
+    "department": "Finance",
+    "allowed_roles": ["finance", "executive", "admin"],
+    "restricted_roles": ["employee", "contractor", "engineering"]
+  },
+  {
+    "id": "eval_32",
+    "question": "How many days must an employee be given to review a formal Performance Improvement Plan (PIP)?",
+    "ground_truth_answer": "Employees must be given 3 business days to review PIP objectives before formal signature and 60-day execution.",
+    "expected_document": "Performance Improvement and PIP Guidelines",
+    "expected_section": "Review Period",
+    "department": "HR",
+    "allowed_roles": ["hr", "manager", "admin"],
+    "restricted_roles": ["employee", "contractor"]
+  },
+  {
+    "id": "eval_33",
+    "question": "What is the notice period required for executive resignation?",
+    "ground_truth_answer": "Vice Presidents and C-suite executives must provide a minimum of 60 days written notice.",
+    "expected_document": "Executive Employment Terms and Governance",
+    "expected_section": "Termination and Notice",
+    "department": "Executive",
+    "allowed_roles": ["executive", "hr", "admin", "legal"],
+    "restricted_roles": ["employee", "contractor"]
+  },
+  {
+    "id": "eval_34",
+    "question": "What is the maximum allowed duration for personal unpaid leave of absence?",
+    "ground_truth_answer": "Unpaid personal leave of absence may be granted for up to 6 months with VP and HR approval.",
+    "expected_document": "Employee Benefits and Leave Policy 2026",
+    "expected_section": "Personal Leave",
+    "department": "HR",
+    "allowed_roles": ["employee", "manager", "hr", "admin"],
+    "restricted_roles": ["contractor"]
+  },
+  {
+    "id": "eval_35",
+    "question": "What is the mandatory retention period for employee tax withholding forms (W-4)?",
+    "ground_truth_answer": "W-4 tax withholding forms must be retained for at least 4 years after the date the tax is due or paid.",
+    "expected_document": "Corporate Record Retention and Compliance Policy",
+    "expected_section": "Tax Records",
+    "department": "Finance",
+    "allowed_roles": ["finance", "hr", "admin", "legal"],
+    "restricted_roles": ["employee", "contractor"]
+  }
+]
