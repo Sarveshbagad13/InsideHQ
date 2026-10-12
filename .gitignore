@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Node & Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.DS_Store
+
+# Environment variables
+.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Local PostgreSQL runtime
+.pg_local/
+*.log
